@@ -1,0 +1,296 @@
+<html>
+    <head>
+        <title>Faculty Details
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+        <script src="script.js"></script>
+	<style>
+		.bg
+		{
+			background-image: url(images/bg13.jpg);
+			background-size: cover;
+		}
+		</style>
+	
+ 
+     <body style="background-color:white" class="bg">
+		<!-- <div class="background-wrap">
+        
+        <video id="vid" preload="auto" autoplay="true" loop="loop" muted="muted">
+            
+            <source src="gifs/gif3.mp4" type="video/mp4">
+             
+            </video>
+     </div> !-->
+       
+          
+            
+          <div id="banner">   
+            <p>
+				<div class="nav">
+                
+                <ul id="menu">
+                
+                    
+                   <li id="items1"><a href="main.html"><em>HOME</em></a></li>
+                    <li id="items2"><a href="about.html"><em>ABOUT</em></a></li>
+                    <li id="items3"><a href="contactus.html"><em>CONTACT US</em></a></li>
+                    <li id="items4"><a href="faculty.html"><em>FACULTY DETAILS</em></a></li>   
+					<li id="items6"><a href="developers.html"><em>CLUBS</em></a>
+				    <li id="items6"><a href="achieve.html"><em>Achievements</em></a>
+					
+						
+            </ul>
+			  </div>
+					
+         </div>
+        </div>
+		 
+		 <div align="center" >
+			 <img id="myImg" src="faculty/hod.jpg"
+				  alt="<h3>
+					   <table>
+				   <tr>
+			  	<td>Name</td> <td>:</td> <td>Dr.Hamaspriya</td>
+				</tr>
+			  <tr>
+		  	<td>Designation</td> <td>:</td> <td>Head of the Department</td>
+		  </tr>  
+					   </h3>">	
+		 </div>
+
+ 		 <div align="center">
+          <img id="myImg1" src="faculty/diva.jpg" alt="<h3>
+					   <table>
+				   <tr>
+			  	<td>Name</td> <td>:</td> <td>Mr.Divagaran</td>
+				</tr>
+			  <tr>
+		  	<td>Designation</td> <td>:</td> <td>Assistant Professor</td>
+		  </tr>  
+					   </h3>" width="100px" height="100px">
+         </div>
+		 
+         <div  align="center">
+          <img id="myImg2" src="faculty/vila.JPG"
+			   alt="<h3>
+					   <table>
+				   <tr>
+			  	<td>Name</td> <td>:</td> <td>Mrs.Visalini</td>
+				</tr>
+			  <tr>
+		  	<td>Designation</td> <td>:</td> <td>Assistant Professor</td>
+		  </tr>  
+					   </h3>"width="100px" height="100px">
+         </div>
+
+		 <div align="center">
+          <img  id="myImg3" src="faculty/ponnu.jpg" alt="<h3>
+					   <table>
+				   <tr>
+			  	<td>Name</td> <td>:</td> <td>Mr.Ponnasavarthan</td>
+				</tr>
+			  <tr>
+		  	<td>Designation</td> <td>:</td> <td>Assistant Professor</td>
+		  </tr>  
+					   </h3>" width="100px" height="100px">
+         </div>
+		
+		 <div align="center">
+          <img  id="myImg4" src="faculty/faculty_image_226.png"
+			   alt="<h3>
+					   <table>
+				   <tr>
+			  	<td>Name</td> <td>:</td> <td>Mrs.Sumathi</td>
+				</tr>
+			  <tr>
+		  	<td>Designation</td> <td>:</td> <td>Assistant Professor</td>
+		  </tr>  
+					   </h3>" width="100px" height="100px">
+         </div>
+		 
+		 <div align="center">
+          <img  id="myImg5" src="faculty/muthu.JPG" alt="<h3>
+					   <table>
+				   <tr>
+			  	<td>Name</td> <td>:</td> <td>Mr.Muthukumar</td>
+				</tr>
+			  <tr>
+		  	<td>Designation</td> <td>:</td> <td>Assistant Professor</td>
+		  </tr>  
+					   </h3>" width="100px" height="100px">
+         </div>
+		 
+		 <div align="center">
+          <img  id="myImg6" src="faculty/cg.jpg" alt="<h3>
+					   <table>
+				   <tr>
+			  	<td>Name</td> <td>:</td> <td>Mr.Mohankumar</td>
+				</tr>
+			  <tr>
+		  	<td>Designation</td> <td>:</td> <td>Assistant Professor</td>
+		  </tr>  
+					   </h3>" width="100px" height="100px">
+         </div>
+		
+	
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption">
+    </div>
+</div>
+
+<script>
+ 
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+var modal = document.getElementById('myModal');
+
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg1');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){  
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){  
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg6');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){  
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+
+
+</script>
+
+         
+    </body>
+</html>

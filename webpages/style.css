@@ -1,0 +1,287 @@
+body{
+    font-family: faus;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color:white;
+	
+}
+
+img
+{
+    height:auto;
+    width: 100%;
+}
+
+h1
+{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: darkblue;
+	font-family:'Cabin Sketch';
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin-bottom: 60px;
+    overflow: hidden;
+    position:relative;
+}
+
+#items1,#items2,#items3,#items4,#items6
+{
+    float:left;
+    width:160px;
+    text-decoration-color:chocolate;
+    margin-right:50px;
+	position:relative;
+	align-items: center;
+	align-content: center;
+	
+}
+
+ul li
+{
+	position:relative;
+	align-content: center;
+}
+
+a:link,a:visited
+{
+    display: block;
+    width: 180px;
+    font-weight: bold;
+    color: white;
+	border-radius: 90px;
+    text-align: center;
+    padding: 4px;
+    text-decoration:none;
+    text-transform: uppercase;
+    position:relative;
+	align-items: center;
+	align-content: center;
+    
+    
+}
+a:hover,a:active
+{
+    color:ghostwhite;
+    
+}
+
+
+
+#content
+{
+    width:100%;
+    position:relative;
+    top: 100px;
+    height:100px;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+#float{
+    background-color: yellow;
+    
+}
+
+.background-wrap{
+    position:fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+     overflow: hidden;
+    top: 0;
+    left: 0;
+   
+    
+}
+#vid{
+    position:absolute;
+    top: 0;
+    left: 0;
+  
+    
+    min-height:100%;
+   min-width:  100%;
+}
+.container {
+  position: relative;
+  width: 50%;
+
+    transform: translate(-50%,-50%);
+}
+.container h1{l
+    margin: 0;
+    padding: 0;
+    
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height:200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+    opacity: 0.5%;
+}
+
+.container:hover .overlay {
+  width:35%;
+    
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  font-family:serif;
+  position: absolute;
+  overflow: hidden;
+  word-wrap: break-word;
+ 
+ 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#myImg1,#myImg2,#myImg3,#myImg,#myImg4,#myImg5,#myImg6{
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#myImg1:hover
+{opacity:0.6;}
+
+#myImg2:hover
+{opacity:0.6;}
+
+#myImg3:hover
+{opacity:0.6;}
+
+#myImg:hover
+{opacity:0.6;}
+
+#myImg4:hover
+{opacity:0.6;}
+
+#myImg5:hover
+{opacity:0.6;}
+
+#myImg6:hover
+{opacity:0.6;}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    
+}
+.modal-content {
+    margin-left: 350px;
+    display: block;
+    width: 60%;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#caption {
+    margin: -250px -250px -450px 800px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    height: 150px;
+
+}
+table{
+	color: antiquewhite;
+	font-family: Agustus;
+}
+
+.nav{
+			width: 100%;
+			background: #000033;
+			height:32px;
+		align-content: center;
+	}
+	a:hover
+		{
+			background:black;
+			height: 19x;
+		}
+
+
+		
+		
+
